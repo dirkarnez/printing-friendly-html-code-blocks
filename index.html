@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js"></script>
+<style>
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+.container {
+ position: relative;
+ }
+.overlay {
+z-index: 1111111;
+top: 0;
+    position: absolute;
+    }
+    
+</style>
+  	<style>
+
+.hljs-ln-numbers {
+      text-align: center;
+      color: #ccc;
+      border-right: 1px solid #999;
+      vertical-align: top;
+      padding-right: 5px !important;
+
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    .hljs-ln-code {
+      padding-left: 10px !important;
+    }
+
+    /* .hljs-ln-code,
+    .hljs-ln-numbers {
+      line-height: 14px;
+    } */
+
+    code {
+      white-space: pre-wrap;
+      overflow: auto;
+    }
+
+
+	</style>
+</head>
+<body>
+
+
+
+<div class="container">
+<pre><code>package main
+
+func main () {
+
+}
+</code>
+</pre>
+<span class="blinking-cursor overlay">|</span>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  hljs.highlightAll();
+  hljs.initLineNumbersOnLoad();
+});
+</script> 
+
+</body>
+</html>
