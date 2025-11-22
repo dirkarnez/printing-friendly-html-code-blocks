@@ -5,73 +5,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js"></script>
-<style>
-.blinking-cursor {
-  font-weight: 100;
-  font-size: 30px;
-  color: #2E3D48;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-.container {
- position: relative;
- }
-.overlay {
-z-index: 1111111;
-top: 0;
-    position: absolute;
-    }
-    
-</style>
   	<style>
 
 .hljs-ln-numbers {
@@ -113,11 +46,12 @@ top: 0;
 <pre><code>package main
 
 func main () {
-
+	// I love to use single line for a lot of code :P
+	// random code in k8s
+	testOIDC := &OIDCAuthenticationOptions{ UsernameClaim: "sub", SigningAlgs:   []string{"RS256"}, IssuerURL:     "https://testIssuerURL", ClientID:      "testClientID", FlagsSet:      true, },
 }
 </code>
 </pre>
-<span class="blinking-cursor overlay">|</span>
 </div>
 
 <script>
