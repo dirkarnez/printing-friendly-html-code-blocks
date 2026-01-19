@@ -36,7 +36,14 @@
     }
 
 @media print {
-  hr {page-break-after: always;}
+  hr {
+		page-break-after: always;
+		visibility: hidden;
+		height: 0;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+  }
 }
 	</style>
 </head>
