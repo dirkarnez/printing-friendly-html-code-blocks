@@ -17,3 +17,9 @@ Second page
 <br>
 <button onclick="window.print();return false;" />Print (to see the result) </button>
 ```
+### Markdown
+- https://naereen.github.io/StrapDown.js/
+- https://raito.arnaud.at/#/
+- https://github.com/markedjs/marked
+- https://github.com/susam/texme
+https://github.com/CNOCTAVE/marked_reader
