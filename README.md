@@ -1,5 +1,7 @@
 [printing-friendly-html-code-blocks](https://dirkarnez.github.io/printing-friendly-html-code-blocks)
 ====================================================================================================
+[dirkarnez/my-markdown-dialect: For engineering essays](https://github.com/dirkarnez/my-markdown-dialect)
+
 ### Using
 - [yauhenipakala/highlightjs-line-numbers.js: Line numbering plugin for Highlight.js](https://github.com/yauhenipakala/highlightjs-line-numbers.js)
 
