@@ -25,3 +25,7 @@ Second page
 - https://github.com/markedjs/marked
 - https://github.com/susam/texme
 https://github.com/CNOCTAVE/marked_reader
+
+### TODOs
+- [How to Have the Look and Feel of A4 in HTML on Screen devices - DEV Community](https://dev.to/websilvercraft/how-to-have-the-look-and-feel-of-a4-in-html-on-screen-devices-30am)
+- [DESIGNING HTML PAGES FOR PRINTING - DEV Community](https://dev.to/covydev/designing-html-pages-for-printing-2jnj)
